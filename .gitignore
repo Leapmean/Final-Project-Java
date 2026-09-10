@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
-wonderreads.db
+Kokoro.db
 
 
 ### IntelliJ IDEA ###

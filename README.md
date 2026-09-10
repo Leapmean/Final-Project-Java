@@ -1,6 +1,6 @@
-# WonderReads Library System
+# Kokoro Library System
 
-A Java Swing + SQLite desktop application based on the supplied WonderReads presentation.
+A Java Swing + SQLite desktop application based on the supplied Kokoro presentation.
 
 ## Features
 - User/Admin login
@@ -28,7 +28,7 @@ A Java Swing + SQLite desktop application based on the supplied WonderReads pres
    - Username: `admin`
    - Password: `admin123`
 
-The file `wonderreads.db` is created automatically after the first run.
+The file `Kokoro.db` is created automatically after the first run.
 
 ## Run with Maven
 ```bash

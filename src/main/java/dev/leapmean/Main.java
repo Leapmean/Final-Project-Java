@@ -10,7 +10,7 @@ public class Main {
     }
 
     private static void showLogin() {
-        JFrame frame = new JFrame("WonderReads - Login");
+        JFrame frame = new JFrame("Kokoro - Login");
         frame.setSize(420, 260);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
