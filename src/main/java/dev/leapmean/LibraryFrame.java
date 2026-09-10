@@ -16,7 +16,7 @@ public class LibraryFrame extends JFrame {
 
     public LibraryFrame(User user) {
         this.currentUser = user;
-        setTitle("Kokoro - Book Management");
+        setTitle("Kokoro - Book Library");
         setSize(850, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
