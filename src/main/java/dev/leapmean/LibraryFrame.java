@@ -16,7 +16,7 @@ public class LibraryFrame extends JFrame {
 
     public LibraryFrame(User user) {
         this.currentUser = user;
-        setTitle("WonderReads - Book Management");
+        setTitle("Kokoro- Book Management");
         setSize(850, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -145,6 +145,6 @@ public class LibraryFrame extends JFrame {
     }
 
     private void showError(String message) {
-        JOptionPane.showMessageDialog(this, message, "WonderReads", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(this, message, "Kokoro", JOptionPane.ERROR_MESSAGE);
     }
 }
