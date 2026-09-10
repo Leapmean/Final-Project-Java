@@ -40,6 +40,3 @@ mvn exec:java
 Two tables are created automatically:
 - `users(id, username, password, role)`
 - `books(id, title, author, genre, registered_date)`
-
-## Notes
-The original presentation mentions Java Swing + JDate Picker, SQLite, DB Browser for SQLite, IntelliJ, and Git/GitHub. This completed implementation uses Swing and SQLite directly; the registered date is entered as text in ISO format (`YYYY-MM-DD`) to keep the project dependency-light.
