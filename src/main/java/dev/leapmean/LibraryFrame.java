@@ -22,12 +22,12 @@ public class LibraryFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JMenuBar bar = new JMenuBar();
-        JMenu file = new JMenu("File");
-        JMenuItem refresh = new JMenuItem("Display");
-        JMenuItem add = new JMenuItem("New");
-        JMenuItem update = new JMenuItem("Update");
-        JMenuItem delete = new JMenuItem("Delete");
-        JMenuItem exit = new JMenuItem("Exit");
+        JMenu file = new JMenu("All Menus");
+        JMenuItem refresh = new JMenuItem("Display Books");
+        JMenuItem add = new JMenuItem("Add Books");
+        JMenuItem update = new JMenuItem("Update Book");
+        JMenuItem delete = new JMenuItem("Remove Books");
+        JMenuItem exit = new JMenuItem("Exit: Good Luck!");
 
         refresh.addActionListener(e -> loadBooks());
         add.addActionListener(e -> addBook());
