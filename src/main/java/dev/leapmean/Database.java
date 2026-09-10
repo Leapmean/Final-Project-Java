@@ -3,7 +3,7 @@ package dev.leapmean;
 import java.sql.*;
 
 public class Database {
-    private static final String URL = "jdbc:sqlite:wonderreads.db";
+    private static final String URL = "jdbc:sqlite:Kokoro.db";
 
     static {
         try {
