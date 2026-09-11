@@ -1,6 +1,10 @@
 package dev.leapmean;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Database {
     private static final String URL = "jdbc:sqlite:Kokoro.db";
@@ -21,6 +25,7 @@ public class Database {
         String users = "CREATE TABLE IF NOT EXISTS users (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "username TEXT UNIQUE NOT NULL, password TEXT NOT NULL, role TEXT NOT NULL)";
+
         String books = "CREATE TABLE IF NOT EXISTS books (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "title TEXT NOT NULL, author TEXT NOT NULL, genre TEXT NOT NULL, " +
@@ -37,6 +42,7 @@ public class Database {
 
     private static void seedAdmin(Connection c) throws SQLException {
         String sql = "INSERT OR IGNORE INTO users(username,password,role) VALUES(?,?,?)";
+
         try (PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, "admin");
             ps.setString(2, "admin123");
