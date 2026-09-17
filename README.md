@@ -25,8 +25,8 @@ A Java Swing + SQLite desktop application based on the supplied Kokoro presentat
 3. Let Maven import dependencies.
 4. Run `Main.java`.
 5. Default administrator:
-   - Username: `admin`
-   - Password: `admin123`
+   - Username: `leapmean`
+   - Password: `leapmean123`
 
 The file `Kokoro.db` is created automatically after the first run.
 

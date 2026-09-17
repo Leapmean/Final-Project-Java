@@ -44,8 +44,8 @@ public class Database {
         String sql = "INSERT OR IGNORE INTO users(username,password,role) VALUES(?,?,?)";
 
         try (PreparedStatement ps = c.prepareStatement(sql)) {
-            ps.setString(1, "admin");
-            ps.setString(2, "admin123");
+            ps.setString(1, "leapmean");
+            ps.setString(2, "leapmean123");
             ps.setString(3, "ADMIN");
             ps.executeUpdate();
         }
